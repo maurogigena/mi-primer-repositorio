@@ -1,0 +1,296 @@
+/* RESET */
+*{
+    font-family: 'Faster One', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+.titulo-principal {
+    font-family: 'Faster One', cursive;
+    font-size: 40px;
+    color: rgb(19, 19, 19);
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+.subtitulo-principal {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    color: darkgray;
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 30px;
+    padding-top: 0px;
+}
+
+/* MAIN */
+main {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "main main main main aside"
+    "main main main main aside"
+    ;
+    grid-column-gap: 30px;
+}
+.info-futarg {
+    grid-area: main;
+}
+.info-extra {
+    grid-area: aside;
+}
+
+/* ENLACES */
+.img-inicio {
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: white;
+}
+.cont-img {
+    position: relative;
+    display: inline-block;
+    justify-content: left;
+    align-items: center;
+    letter-spacing: 1.5px;
+}
+.link-inicio {
+    text-decoration: none;
+    font-size: 20px;
+}
+.texto-link {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(123, 121, 121, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* TEXTO */
+.centrar-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(4, 4, 4);
+    padding-top: 20px;
+}
+
+/* FOOTER */
+.contacto {
+    display: flex;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+    margin-bottom: 0%;
+}
+.enlaces-contacto {
+    display: flex;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    border-top: 0%;
+}
+.valoracion-del-foro {
+    margin-top: 20px;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.valoracion-del-foro textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 75px;
+    resize: vertical;
+}
+.valoracion-del-foro button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+}
+a:hover {
+    text-decoration: underline;
+}
+.derechos-de-autor {
+    color: rgb(0, 0, 0);
+    font-size: small;
+    margin-left: 10px;
+}
+
+/* inicio */
+.navbar {
+    max-width: 100%;
+    background-color: rgb(20, 20, 20);
+    padding-left: 0%;
+}
+.nav-bar {
+    position: fixed;
+    background-color: #a3a3a3;
+    padding: 10px 0;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+.nav-bar nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0%;
+    margin-top: 3px;
+    padding: 0px;
+}
+.nav-bar nav ul li {
+    margin: 0 10px;
+}
+.nav-link div ul li a:hover {
+    text-decoration: underline;
+}
+.inline-content {
+    display: inline;
+}
+.titulo-inicio {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    display: flex;
+    margin: 0 10px;
+}
+.biografia-liganet {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 35px;
+}
+.biografia-2 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 2px;
+}
+.nosotros-inicio {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 254, 254);
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    border-top: 5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.img-argentina-campeon img {
+    height: 560px;
+    width: 800px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.img-argentina-campeon {
+    display: flex;
+    justify-content: center;
+}
+
+/* FUTBOL ARGENTINO */
+.fut-arg-text {
+    color: white;
+    margin-top: 20px;
+}
+.img-futarg {
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.comentarios {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.comentarios textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+.comentarios button {
+    background-color: blanchedalmond;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.comentarios button:hover{
+    background-color: #2980b9;
+}
+
+/* FUTBOL INTERNACIONAL */
+.main-futint {
+    margin-top: 25px;
+}
+
+/* ACTUALIDAD */
+.main-actualidad {
+    margin-top: 25px;
+}
+.img-actualidad {
+    border-radius: 10px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.font-faster {
+    font-family: 'Faster One', cursive !important; 
+    color: white;
+    font-size: 27px;
+    padding-left: 5px;
+}
+.nav-link {
+    font-weight: 600;
+    color: white;
+}
+.card-title {
+    font-weight: 600;
+    text-shadow: 2px 2px 4px black;
+}
+.card-text {
+    text-shadow: 2px 2px 4px black;
+}
+.card-text-a {
+    color: white;
+}
+.card-img-top {
+    border-color: black;
+    border-radius: 2px;
+}
+.navbar-nav:hover {
+    color: gray;
+}
