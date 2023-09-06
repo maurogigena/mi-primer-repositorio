@@ -152,6 +152,9 @@ a:hover {
     top: 0px;
     left: 0px;
 }
+.navbar-brand:hover {
+    color: rgb(255, 52, 52);
+}
 .nav-bar nav ul {
     list-style: none;
     display: flex;
@@ -276,6 +279,9 @@ a:hover {
 .nav-link {
     font-weight: 600;
     color: white;
+}
+.nav-link:hover{
+    color: rgb(255, 33, 33);
 }
 .card-title {
     font-weight: 600;
