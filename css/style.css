@@ -3,7 +3,17 @@
     font-family: 'Faster One', cursive;
     font-family: 'Roboto', sans-serif;
 }
-
+/* Media Query para pantallas de escritorio */
+@media (min-width: 1024px) {
+}
+  
+/* Media Query para tablets */
+@media (max-width: 1023px) and (min-width: 768px) {
+}
+  
+/* Media Query para dispositivos móviles */
+@media (max-width: 767px) {
+}
 /* HEADER */
 .titulo-principal {
     font-family: 'Faster One', cursive;
@@ -136,6 +146,7 @@ a:hover {
     color: rgb(0, 0, 0);
     font-size: small;
     margin-left: 10px;
+    padding-top: 35px;
 }
 
 /* inicio */
@@ -282,6 +293,9 @@ a:hover {
 }
 .nav-link:hover{
     color: rgb(255, 33, 33);
+}
+.card {
+    margin-bottom: 20px;
 }
 .card-title {
     font-weight: 600;
