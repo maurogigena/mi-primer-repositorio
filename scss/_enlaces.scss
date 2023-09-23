@@ -1,0 +1,13 @@
+/* ENLACES */
+.img-inicio {
+    @include img-inicio;
+}
+.cont-img {
+    @include cont-img;
+}
+.link-inicio {
+    @include link-inicio
+}
+.texto-link {
+    @include texto-link
+}

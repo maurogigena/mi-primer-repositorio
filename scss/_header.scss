@@ -1,0 +1,8 @@
+/* HEADER */
+.titulo-principal {
+    @include titulo-principal;
+}
+
+.subtitulo-principal {
+    @include subtitulo-principal;
+}
