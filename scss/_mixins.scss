@@ -6,6 +6,7 @@
     margin-bottom: 0px;
 }
 
+
 @mixin subtitulo-principal {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
@@ -14,6 +15,12 @@
     font-weight: 300;
     margin-left: 30px;
     padding-top: 0px;
+}
+@mixin font-faster {
+    font-family: $reset-font; 
+    color: #ffffff;
+    font-size: 27px;
+    padding-left: 5px;
 }
 
 @mixin main {
@@ -50,11 +57,138 @@
     color: #ffffff;
 }
 
+
 @mixin centrar-texto {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #040404;
+    color: $color-contacto-footer;
     padding-top: 20px;
+}
+
+
+@mixin contacto {
+    display: flex;
+    color: $color-contacto-footer;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 60px;
+    margin-bottom: 0%;
+}
+@mixin enlaces-contacto {
+    display: flex;
+    color: $color-contacto-footer;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    border-top: 0%;
+}
+@mixin valoracion-del-foro {
+    margin-top: 20px;
+    padding: 25px;
+    border: 1px solid hwb(0 80% 20%);
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@mixin a {
+    text-decoration: none;
+    color: $color-contacto-footer;
+}
+@mixin derechos-de-autor {
+    color: $color-contacto-footer;
+    font-size: small;
+    margin-left: 10px;
+}
+
+
+@mixin nav-bar {
+    max-width: 100%;
+    background-color: #141414;
+    padding-left: 0%;
+    position: fixed;
+    background-color: #a3a3a3;
+    padding: 10px 0;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+@mixin ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0%;
+    margin-top: 3px;
+    padding: 0px;
+}
+
+
+@mixin titulo-inicio {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    margin: 0 10px;
+}
+
+
+@mixin biografia-liganet {
+    font-family: $reset-font-2;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 35px;
+}
+@mixin biografia-2 {
+    font-family: $reset-font-2;
+    color: $color-contacto-footer;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 2px;
+}
+@mixin nosotros-inicio {
+    font-family: $reset-font-2;
+    color: #fffefe;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    border-top: 5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+@mixin img-argentina-campeon {
+    height: 560px;
+    width: 800px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+@mixin img-argentina-campeon-2 {
+    display: flex;
+    justify-content: center;
+}
+@mixin img-futarg {
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+@mixin fut-arg-text {
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+@mixin img-actualidad {
+    border-radius: 10px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
 }

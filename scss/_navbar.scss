@@ -1,0 +1,31 @@
+/* NAVBAR*/
+.nav-bar {
+    @include nav-bar;
+}
+.navbar-brand:hover {
+    color: #ff3434;
+}
+.nav-bar nav ul {
+    @include ul;
+}
+.nav-bar nav ul li {
+    margin: 0 10px;
+}
+.nav-link div ul li a:hover {
+    text-decoration: underline;
+}
+.inline-content {
+    display: inline;
+}
+
+/* NAVBAR DE GETBOOTSTRAP */
+.nav-link {
+    font-weight: 600;
+    color: #f7f7f7;
+}
+.nav-link:hover{
+    color: #ff2121;
+}
+.navbar-nav:hover {
+    color: #808080;
+}

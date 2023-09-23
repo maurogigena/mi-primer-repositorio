@@ -1,0 +1,17 @@
+/* IMAGEN 'INICIO' */
+.img-argentina-campeon img {
+    @include img-argentina-campeon;
+}
+.img-argentina-campeon {
+    @include img-argentina-campeon-2;
+}
+
+/* IMAGEN 'FUTBOL ARGENTINO' */
+.img-futarg {
+    @include img-futarg;
+}
+
+/* IMAGEN 'ACTUALIDAD' */
+.img-actualidad {
+    @include img-actualidad
+}

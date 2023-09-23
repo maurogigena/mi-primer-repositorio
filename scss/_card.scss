@@ -1,0 +1,15 @@
+/* ESTOS ESTILOS SON MODIFICACION DE LAS PLANTILLAS DE BOOTSTRAP QUE UTILICÉ EN EL PROYECTO */ 
+.Card-title {
+    font-weight: 600;
+    text-shadow: 2px 2px 4px $color-contacto-footer;
+}
+.card-text {
+    text-shadow: 2px 2px 4px $color-contacto-footer;
+}
+.card-text-a {
+    color: #ffffff;
+}
+.card-img-top {
+    border-color: $color-contacto-footer;
+    border-radius: 2px;
+}

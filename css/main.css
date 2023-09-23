@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* RESET */
 * {
   font-family: "Faster One", cursive;
@@ -21,6 +22,13 @@
   font-weight: 300;
   margin-left: 30px;
   padding-top: 0px;
+}
+
+.font-faster {
+  font-family: "Faster One", cursive;
+  color: #ffffff;
+  font-size: 27px;
+  padding-left: 5px;
 }
 
 /* MAIN */
@@ -82,8 +90,251 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #040404;
+  color: #000000;
   padding-top: 20px;
+}
+
+/* FOOTER */
+.contacto {
+  display: flex;
+  color: #000000;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  font-size: 60px;
+  margin-bottom: 0%;
+}
+
+.enlaces-contacto {
+  display: flex;
+  color: #000000;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  border-top: 0%;
+}
+
+.valoracion-del-foro {
+  margin-top: 20px;
+  padding: 25px;
+  border: 1px solid hwb(0 80% 20%);
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.valoracion-del-foro textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  height: 75px;
+  resize: vertical;
+}
+.valoracion-del-foro button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+a a:hover {
+  text-decoration: underline;
+}
+
+.derechos-de-autor {
+  color: #000000;
+  font-size: small;
+  margin-left: 10px;
+}
+
+/* NAVBAR*/
+.nav-bar {
+  max-width: 100%;
+  background-color: #141414;
+  padding-left: 0%;
+  position: fixed;
+  background-color: #a3a3a3;
+  padding: 10px 0;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.navbar-brand:hover {
+  color: #ff3434;
+}
+
+.nav-bar nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0%;
+  margin-top: 3px;
+  padding: 0px;
+}
+
+.nav-bar nav ul li {
+  margin: 0 10px;
+}
+
+.nav-link div ul li a:hover {
+  text-decoration: underline;
+}
+
+.inline-content {
+  display: inline;
+}
+
+/* NAVBAR DE GETBOOTSTRAP */
+.nav-link {
+  font-weight: 600;
+  color: #f7f7f7;
+}
+
+.nav-link:hover {
+  color: #ff2121;
+}
+
+.navbar-nav:hover {
+  color: #808080;
+}
+
+/* TITULO PAGINA INICIO */
+.titulo-inicio {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  margin: 0 10px;
+}
+
+/* BIOGRAFIA LIGANET Y "NOSOTROS"*/
+.biografia-liganet {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.biografia-2 {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.nosotros-inicio {
+  font-family: "Roboto", sans-serif;
+  color: #fffefe;
+  font-size: 25px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  border-top: 5px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+/* IMAGEN 'INICIO' */
+.img-argentina-campeon img {
+  height: 560px;
+  width: 800px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+.img-argentina-campeon {
+  display: flex;
+  justify-content: center;
+}
+
+/* IMAGEN 'FUTBOL ARGENTINO' */
+.img-futarg {
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+}
+
+/* IMAGEN 'ACTUALIDAD' */
+.img-actualidad {
+  border-radius: 10px;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+}
+
+/* FUTBOL ARGENTINO */
+.fut-arg-text {
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+/*CASILLA DE COMENTARIIOS (VIEJA) */
+.comentarios {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.comentarios textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+}
+.comentarios button {
+  background-color: #ffebcd;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.comentarios button:hover {
+  background-color: #2980b9;
+}
+
+/* FUTBOL INTERNACIONAL */
+.main-futint {
+  margin-top: 25px;
+}
+
+/* ACTUALIDAD */
+.main-actualidad {
+  margin-top: 25px;
+}
+
+/* ESTOS ESTILOS SON MODIFICACION DE LAS PLANTILLAS DE BOOTSTRAP QUE UTILICÉ EN EL PROYECTO */
+.Card-title {
+  font-weight: 600;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.card-text {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.card-text-a {
+  color: #ffffff;
+}
+
+.card-img-top {
+  border-color: #000000;
+  border-radius: 2px;
 }
 
 /*# sourceMappingURL=main.css.map */

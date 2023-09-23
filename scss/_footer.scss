@@ -1,0 +1,35 @@
+/* FOOTER */
+.contacto {
+    @include contacto;
+}
+.enlaces-contacto {
+    @include enlaces-contacto;
+}
+.valoracion-del-foro {
+    @include valoracion-del-foro;
+    textarea {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        height: 75px;
+        resize: vertical;
+    }
+    button {
+        background-color: #007bff;
+        color: #ffffff;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+}
+a {
+    @include a;
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+.derechos-de-autor {
+    @include derechos-de-autor;
+}
