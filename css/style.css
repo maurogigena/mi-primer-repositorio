@@ -72,14 +72,12 @@ main {
     font-size: 20px;
 }
 .texto-link {
-    position:absolute;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(123, 121, 121, 0.8);
-    padding: 10px;
+    padding-bottom: 30px;
+    padding-left: 15px;
     border-radius: 5px;
     color: white;
+    font-weight: 500;
 }
 
 /* TEXTO */
@@ -109,6 +107,10 @@ main {
     justify-content: center;
     text-decoration: none;
     border-top: 0%;
+}
+.red-social {
+    padding-left: 3px;
+    padding-right: 7px;
 }
 .valoracion-del-foro {
     margin-top: 20px;
@@ -194,7 +196,7 @@ a:hover {
 .biografia-liganet {
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 600;
     text-align: center;
     margin-top: 35px;
 }
@@ -313,4 +315,7 @@ a:hover {
 }
 .navbar-nav:hover {
     color: gray;
+}
+.animate__fadeInDown {
+    animation-duration: 10s;
 }
