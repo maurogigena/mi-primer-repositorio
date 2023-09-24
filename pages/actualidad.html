@@ -7,11 +7,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Faster+One&family=Oswald:wght@300&family=Roboto&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> 
-        <link rel="stylesheet" href="../css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="../css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 <body>
-  <header> <!-- LOGO Y ENLACES - BOOTSTRAP -->
+  <header class="animate__animated animate__slideInDown"> <!-- LOGO Y ENLACES - BOOTSTRAP -->
 
     <nav class="navbar navbar-expand-lg">
 
@@ -47,13 +51,13 @@
 
   </header>
 
-  <main class="main-actualidad">
+  <main class="main-actualidad animate__animated animate__fadeInDown">
 
     <div class="grid-container"> <!-- MAIN INFO -->
 
       <div class="info-futarg">
 
-        <div class="card text-bg-dark">
+        <div class="card text-bg-dark mb-4">
             <img src="../assets/logo-copa-america-2024.jpg" class="card-img" alt="Nuevo Logo Copa America 2024">
           <div class="card-img-overlay">
             <a class="card-text-a" href="https://www.ole.com.ar/ecuador/internacional/presentacion-logo-copa-america-unidos-2024_0_sBKtRWLe2N.html"><h5 class="card-title">Se presentó el nuevo logo oficial de la CONMEBOL Copa América Estados Unidos 2024</h5></a>
@@ -61,8 +65,8 @@
             <a class="card-text-a" href="https://www.ole.com.ar/ecuador/internacional/presentacion-logo-copa-america-unidos-2024_0_sBKtRWLe2N.html"><p class="card-text"><small>Last updated 3 mins ago</small></p></a>
           </div>
         </div>
-        <br>  
-        <div class="card text-bg-dark">
+         
+        <div class="card text-bg-dark mb-4">
               <img src="../assets/argentina-ecuador.jpg" class="card-img" alt="Argentina vs. Ecuador">
             <div class="card-img-overlay">
               <a class="card-text-a" href="https://www.eluniverso.com/deportes/2015/10/08/nota/5173193/argentina-ecuador-eliminatorias-mundial-rusia-2018/"><h5 class="card-title">Ecuador ya sabe lo que es ganarle a Argentina en Buenos Aires: en 2015 y con Antonio Valencia como figura</h5></a>
@@ -70,8 +74,8 @@
               <a class="card-text-a" href="https://www.eluniverso.com/deportes/2015/10/08/nota/5173193/argentina-ecuador-eliminatorias-mundial-rusia-2018/"><p class="card-text"><small>Last updated 3 mins ago</small></p></a>
             </div>
           </div>
-        <br>
-        <div class="card text-bg-dark">
+        
+        <div class="card text-bg-dark mb-4">
           <img src="../assets/James-Rodriguez.jpeg" class="card-img" alt="James Rodriguez al Sao Paulo">
           <div class="card-img-overlay">
             <a class="card-text-a" href="https://www.tycsports.com/futbol-internacional/atencion-san-lorenzo-san-pablo-le-dio-la-bienvenida-a-james-rodriguez-id526295.html"><h5 class="card-title">James Rodríguez es nuevo jugador de Sao Paulo</h5></a>
@@ -79,8 +83,8 @@
             <a class="card-text-a" href="https://www.tycsports.com/futbol-internacional/atencion-san-lorenzo-san-pablo-le-dio-la-bienvenida-a-james-rodriguez-id526295.html"><p class="card-text"><small>Last updated 3 mins ago</small></p></a>
           </div>
         </div>
-        <br>
-        <div class="card text-bg-dark">
+        
+        <div class="card text-bg-dark mb-4">
           <img src="../assets/Messi-mls.webp" class="card-img" alt="Messi MLS">
           <div class="card-img-overlay">
             <a class="card-text-a" href="https://www.lt10.com.ar/noticia/413430--la-extensa-lista-de-superestrellas-que-fueron-a-ver-a-lionel-messi"><h5 class="card-title">Messi: lo van a ver hasta las superestrellas</h5></a>
@@ -94,14 +98,14 @@
 
       <div class="info-extra"> <!-- ASIDE -->
 
-        <div class="card" style="width: 15rem;">
+        <div class="card mb-4" style="width: 15rem;">
           <img src="../assets/Facundo-Cambeses.jpg" class="card-img-top" alt="Cambeses, arquero de Banfield">
           <div class="card-body">
             <a href="https://www.ole.com.ar/banfield/cambeses-golpazo-asistencia-golazo_0_6EctKjfFvk.html"><p class="card-text-aside">Del llanto desconsolado a héroe, el partido de Facundo Cambeses en la victoria de Banfield frente a Instituto.</p></a>
           </div>
         </div>
-        <br>
-        <div class="card" style="width: 15rem;">
+      
+        <div class="card mb-4" style="width: 15rem;">
           <img src="../assets/descensos-2023.webp" class="card-img-top" alt="Descensos 2023">
           <div class="card-body">
             <a href="https://www.infobae.com/deportes/2023/09/05/8-equipos-separados-por-apenas-5-puntos-la-lucha-por-el-descenso-en-la-copa-de-la-liga-sigue-al-rojo-vivo/"><p class="card-text-aside">La lucha por no descender en el fútbol argentino: los equipos más comprometidos en la pelea por mantener la categoría en Primera División...</p></a>
@@ -115,31 +119,9 @@
 
   </main>
 
-  <br>
-    
-    <!-- <main>
-        <h3 class="subtitulo-principal">MLS</h3>
-        <li class="fut-arg-text"><a href="">Messi</a> volvió a brillar en Inter Miami: doblete al Orlando City y a 8vos. de la Leagues Cup. Leo aportó dos golazos para la victoria de Las Garzas en el Clásico del Sol. Ahora, deberá visitar al FC Dallas para meterse entre los ocho mejores.</li>
-        <br>
-        <div>
-        <img class="img-actualidad" src="../assets/Messi-mls.webp" alt="Messi en el Inter de Miami." width="730" height="430">
-        </div>
-        <br>
-        <h3 class="subtitulo-principal">BRASILEIRAO</h3>
-        <li class="fut-arg-text">OFICIAL: <a href="">James Rodríguez</a> es nuevo jugador de Sao Paulo. El cucuteño no juega desde el 9 de abril cuando disputó su último partido con el Olympiacos. Luego, se quedó sin club cuando por mutuo acuerdo terminó su vínculo con el equipo de Grecia. Había recibido ofertas de Botafogo, pero el equipo Morumbi fue el que ganó la pulseada para quedarse con los servicios de James. El volante colombiano James Rodríguez fue oficializado como nuevo jugador del Sao Paulo de Brasil y firmó un contrato por dos años, hasta junio de 2025.</li>
-        <br>
-        <div>
-        <img class="img-actualidad" src="../assets/James-Rodriguez.jpeg" alt="James Rodríguez nuevo jugador del Sao Paulo.">
-        </div>
-        <br>
-        <div class="comentarios">
-            <textarea placeholder="Deja tu comentario..." cols="50" rows="4"></textarea>
-            <button>ENVIAR</button>
-        </div>
-    </main> -->
-    <footer>
-        <p class="derechos-de-autor">Copyright LIGANET - Sonríe la redonda.</p>
-    </footer>
+  <footer class="animate__animated animate__fadeInDown">
+      <p class="derechos-de-autor">Copyright LIGANET - Sonríe la redonda.</p>
+  </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
