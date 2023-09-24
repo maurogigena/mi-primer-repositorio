@@ -78,10 +78,12 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(123, 121, 121, 0.8);
-  padding: 10px;
+  padding-bottom: 35px;
   border-radius: 5px;
   color: #ffffff;
+}
+.texto-link:hover {
+  text-decoration: underline;
 }
 
 /* TEXTO */
@@ -152,6 +154,11 @@ a a:hover {
   color: #000000;
   font-size: small;
   margin-left: 10px;
+}
+
+.red-social {
+  padding-left: 3px;
+  padding-right: 5px;
 }
 
 /* NAVBAR*/
