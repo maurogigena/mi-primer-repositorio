@@ -1,0 +1,19 @@
+/* MAIN */
+main {
+    @include main;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "main main main main aside"
+    "main main main main aside"
+    ;
+    grid-column-gap: 30px;
+}
+.info-futarg {
+    grid-area: main;
+}
+.info-extra {
+    grid-area: aside;
+}

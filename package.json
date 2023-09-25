@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-css": "sass --watch scss/main.scss css/main.css"
   },
+<<<<<<< HEAD
+=======
+  "keywords": [],
+>>>>>>> sass
   "author": "",
   "license": "ISC"
 }

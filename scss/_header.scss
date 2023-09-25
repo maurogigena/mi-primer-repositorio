@@ -1,0 +1,13 @@
+/* HEADER */
+.titulo-principal {
+    @include titulo-principal;
+}
+
+.subtitulo-principal {
+    @include subtitulo-principal;
+}
+
+// FONT DEL LOGO LIGANET 
+.font-faster {
+    @include font-faster;
+}
