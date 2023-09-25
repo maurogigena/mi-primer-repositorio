@@ -39,10 +39,7 @@ main {
 
 .grid-container {
   display: grid;
-  grid-template-areas: 
-  "main main main main aside" 
-  "main main main main aside"
-  ;
+  grid-template-areas: "main main main main aside" "main main main main aside";
   grid-column-gap: 30px;
 }
 
@@ -314,7 +311,7 @@ a a:hover {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.comentarios-button:hover {
+.comentarios button:hover {
   background-color: #2980b9;
 }
 
@@ -346,5 +343,9 @@ a a:hover {
   border-color: #000000;
   border-radius: 2px;
 }
+
+/* Media Query para pantallas de escritorio */
+/* Media Query para tablets */
+/* Media Query para dispositivos móviles */
 
 /*# sourceMappingURL=main.css.map */
