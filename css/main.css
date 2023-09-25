@@ -39,7 +39,10 @@ main {
 
 .grid-container {
   display: grid;
-  grid-template-areas: "main main main main aside" "main main main main aside";
+  grid-template-areas: 
+  "main main main main aside" 
+  "main main main main aside"
+  ;
   grid-column-gap: 30px;
 }
 
