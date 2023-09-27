@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- SEO -->
     <meta name="description" content="LIGANET: Tu dosis de noticias deportivas. Cubrimos el futbol argentino, futbol europeo, Champions league, Copa Libertadores, MLS y la actualidad deportiva más relevante. Mantente al tanto de las novedades y resultados en el mundo del deporte.">
     <meta name="keywords" content="futbol, deporte, champions league, futbol argentino, mls, messi, boca, river">
@@ -23,13 +23,25 @@
 </head>
 <body>
     <header class="animate__animated animate__fadeInDown"> <!-- titulo de la pagina, logo, enlaces del menu-->
-        <h1 class="titulo-principal">LIGANET</h1>
-        <p class="subtitulo-principal">Sonríe la redonda.</p>
+      <nav>
+        <a href="./index.html"><img style="padding-left: 15px; padding-top: 7px;" src="./assets/liganet-logo-mediano.jfif" alt="Logo LIGANET"></a>
+        <div style="margin-right: 20px; margin-top: 27px; float: right;" class="gap-2 d-md-flex justify-content-md-end">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button style="border-color: #000000; color: #000; margin-right: 10px;" class="btn btn-outline-success" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg></button>
+          </form>
+          <button style="background-color: #ffffff; color: #020202; border-color: #000;" class="btn btn-primary me-md-2" type="button"><a href="./index.html">Ingresar</a></button>
+          <button style="background-color: #ffffff; color: #020202; border-color: #000;" class="btn btn-primary" type="button"><a href="./index.html">Registrarse</a></button>
+        </div>
+      </nav>
+      <p class="subtitulo-principal">Sonríe la redonda.</p>
     </header>
 
     <main class="animate__animated animate__fadeInDown"> <!-- fotos, videos, cont visible -->
 
-        <div id="carouselExampleCaptions" class="carousel slide">
+        <div id="carouselExampleCaptions" class="carousel slide" style="position:sticky;">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
