@@ -8,3 +8,21 @@
 .nosotros-inicio {
     @include nosotros-inicio;
 }
+@mixin nosotros-inicio {
+    
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    border-top: 5px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+@mixin biografia-2 {
+    @include family-color-size;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 2px;
+    margin: 0px;
+}
+

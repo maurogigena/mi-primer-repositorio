@@ -5,24 +5,27 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    textarea {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        resize: vertical;
-    }
-    button {
-        background-color: #ffebcd;
+}
+
+/* CASILLA DE COMENTARIOS NUEVA */ 
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    font-style:oblique;
+}
+.valoracion-del-foro .button-comentarios {
+    background-color: #423690;
+    color: #7f96e8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    &:hover {
+        background-color: #424a81;
         color: #ffffff;
-        border: none;
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-        &:hover {
-            background-color: #2980b9;
-        }
     }
-   
 }

@@ -9,5 +9,24 @@
   
 /* Media Query para dispositivos móviles */
 @media (max-width: 768px) {
-
+    .grid-container {
+        display: grid;
+        grid-template-areas: 
+        "main main" 
+        "main main"
+        "main main"
+        "main main"
+        "aside aside";
+        grid-column-gap: 30px;
+    }
+    .info-futarg {
+        grid-area: main;
+        p {
+            color: #ffffff00;
+            text-shadow: none;
+        }
+    }
+    .info-extra {
+        grid-area: aside;
+    }
 }

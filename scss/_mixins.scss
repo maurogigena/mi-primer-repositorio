@@ -68,7 +68,15 @@
     color: $color-contacto-footer;
     padding-top: 20px;
 }
-
+.mini-texto {
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    p {
+        margin: 1px;
+    }
+}
 
 @mixin contacto {
     display: flex;
@@ -113,8 +121,7 @@
     background-color: #141414;
     padding-left: 0%;
     position: fixed;
-    background-color: #a3a3a3;
-    padding: 10px 0;
+    padding: 10px 0px;
     width: 100%;
     top: 0px;
     left: 0px;
@@ -144,20 +151,23 @@
     font-size: 25px;
     font-weight: 400;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 50px;
+    margin: 1px;
 }
 @mixin biografia-2 {
-    font-family: $reset-font-2;
-    color: $color-contacto-footer;
-    font-size: 25px;
+    @include family-color-size;
     font-weight: 300;
     text-align: center;
     margin-top: 2px;
+    margin: 0px;
+}
+@mixin family-color-size {
+    font-family: $reset-font-2;
+    color: $color-contacto-footer;
+    font-size: 25px;
 }
 @mixin nosotros-inicio {
-    font-family: $reset-font-2;
-    color: #fffefe;
-    font-size: 25px;
+    @include family-color-size;
     font-weight: 600;
     display: flex;
     justify-content: center;

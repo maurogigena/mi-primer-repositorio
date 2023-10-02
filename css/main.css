@@ -1,5 +1,15 @@
 @charset "UTF-8";
 /* RESET */
+.mini-texto {
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.mini-texto p {
+  margin: 1px;
+}
+
 * {
   font-family: "Faster One", cursive;
   font-family: "Roboto", sans-serif;
@@ -162,13 +172,16 @@ a a:hover {
 }
 
 /* NAVBAR*/
+.container-fluid {
+  background-color: #000000;
+}
+
 .nav-bar {
   max-width: 100%;
   background-color: #141414;
   padding-left: 0%;
   position: fixed;
-  background-color: #a3a3a3;
-  padding: 10px 0;
+  padding: 10px 0px;
   width: 100%;
   top: 0px;
   left: 0px;
@@ -189,6 +202,13 @@ a a:hover {
 
 .nav-bar nav ul li {
   margin: 0 10px;
+}
+
+a.lema {
+  color: #999898;
+}
+a.lema:hover {
+  color: #999898;
 }
 
 .nav-link div ul li a:hover {
@@ -213,6 +233,22 @@ a a:hover {
   color: #808080;
 }
 
+/* MENU HAMBURUGESA VISIBLE */
+.burger-bg {
+  background-color: rgba(209, 206, 206, 0.537254902);
+  border-radius: 4px;
+}
+
+.navbar-toggler {
+  border-color: #999898;
+  background-color: #cac8c8;
+}
+
+.btn-outline-success {
+  border-color: #999898;
+  color: #999898;
+}
+
 /* TITULO PAGINA INICIO */
 .titulo-inicio {
   font-family: "Roboto", sans-serif;
@@ -229,7 +265,8 @@ a a:hover {
   font-size: 25px;
   font-weight: 400;
   text-align: center;
-  margin-top: 35px;
+  margin-top: 50px;
+  margin: 1px;
 }
 
 .biografia-2 {
@@ -239,11 +276,12 @@ a a:hover {
   font-weight: 300;
   text-align: center;
   margin-top: 2px;
+  margin: 0px;
 }
 
 .nosotros-inicio {
   font-family: "Roboto", sans-serif;
-  color: #fffefe;
+  color: #000000;
   font-size: 25px;
   font-weight: 600;
   display: flex;
@@ -251,6 +289,12 @@ a a:hover {
   border-top: 5px;
   margin-top: 0%;
   margin-bottom: 0%;
+}
+
+/* IMAGENES CARROUSEL */
+.carousel {
+  position: sticky;
+  margin-top: 20px;
 }
 
 /* IMAGEN 'INICIO' */
@@ -295,24 +339,29 @@ a a:hover {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-.comentarios textarea {
+
+/* CASILLA DE COMENTARIOS NUEVA */
+textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   resize: vertical;
+  font-style: oblique;
 }
-.comentarios button {
-  background-color: #ffebcd;
-  color: #ffffff;
+
+.valoracion-del-foro .button-comentarios {
+  background-color: #423690;
+  color: #7f96e8;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.comentarios button:hover {
-  background-color: #2980b9;
+.valoracion-del-foro .button-comentarios:hover {
+  background-color: #424a81;
+  color: #ffffff;
 }
 
 /* FUTBOL INTERNACIONAL */
@@ -347,5 +396,22 @@ a a:hover {
 /* Media Query para pantallas de escritorio */
 /* Media Query para tablets */
 /* Media Query para dispositivos móviles */
+@media (max-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-areas: "main main" "main main" "main main" "main main" "aside aside";
+    grid-column-gap: 30px;
+  }
+  .info-futarg {
+    grid-area: main;
+  }
+  .info-futarg p {
+    color: rgba(255, 255, 255, 0);
+    text-shadow: none;
+  }
+  .info-extra {
+    grid-area: aside;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

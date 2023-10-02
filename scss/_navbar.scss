@@ -1,4 +1,7 @@
 /* NAVBAR*/
+.container-fluid {
+    background-color: #000000;
+}
 .nav-bar {
     @include nav-bar;
 }
@@ -10,6 +13,12 @@
 }
 .nav-bar nav ul li {
     margin: 0 10px;
+}
+a.lema {
+   color: #999898;
+   &:hover {
+    color: #999898;
+   }
 }
 .nav-link div ul li a:hover {
     text-decoration: underline;
@@ -28,4 +37,18 @@
 }
 .navbar-nav:hover {
     color: #808080;
+}
+
+/* MENU HAMBURUGESA VISIBLE */
+.burger-bg{
+    background-color: #d1cece89;
+    border-radius: 4px;
+}
+.navbar-toggler {
+    border-color: #999898;
+    background-color: #cac8c8;
+}
+.btn-outline-success {
+    border-color: #999898;
+    color: #999898;
 }

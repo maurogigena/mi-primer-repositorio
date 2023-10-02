@@ -1,3 +1,9 @@
+/* IMAGENES CARROUSEL */
+.carousel {
+    position:sticky; 
+    margin-top: 20px;
+}
+
 /* IMAGEN 'INICIO' */
 .img-argentina-campeon img {
     @include img-argentina-campeon;
