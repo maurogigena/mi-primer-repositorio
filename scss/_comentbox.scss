@@ -17,15 +17,15 @@ textarea {
     font-style:oblique;
 }
 .valoracion-del-foro .button-comentarios {
-    background-color: #423690;
-    color: #7f96e8;
+    background-color: #5237fd;
+    color: #eeede6;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     &:hover {
-        background-color: #424a81;
-        color: #ffffff;
+        background-color: #b6c0ff;
+        color: #3366ff;
     }
 }

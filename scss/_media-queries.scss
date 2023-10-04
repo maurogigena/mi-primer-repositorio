@@ -4,7 +4,10 @@
   
 /* Media Query para tablets */
 @media (max-width: 1023px) and (min-width: 769px) {
-
+    .img-argentina-campeon img {
+        height: 270px;
+        width: 400px;
+    }
 }
   
 /* Media Query para dispositivos móviles */
@@ -28,5 +31,18 @@
     }
     .info-extra {
         grid-area: aside;
+    }
+    .d-flex {
+        padding-bottom: 5px;
+    }
+    .biografia-liganet {
+        font-size: 18px;
+    }
+    .img-argentina-campeon img {
+        height: 180px;
+        width: 300px;
+    }
+    .biografia-2 {
+        font-size: 18px;
     }
 }

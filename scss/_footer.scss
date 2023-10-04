@@ -1,4 +1,7 @@
 /* FOOTER */
+footer {
+    border-top: 2px solid #ccc;
+}
 .contacto {
     @include contacto;
 }
